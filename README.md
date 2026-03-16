@@ -4,6 +4,18 @@ A lightweight **Node.js + Express + MySQL** REST API that lets you add schools a
 
 ---
 
+🌐 Live API
+
+Base URL
+
+https://school-management-api-fdm4.onrender.com
+
+Endpoints
+
+POST /addSchool
+GET  /listSchools
+GET  /
+
 ## 📁 Project Structure
 
 ```
@@ -192,7 +204,7 @@ Import `postman/School_Management_API.postman_collection.json` into Postman.
 
 ## ☁️ Deployment
 
-### Railway / Render / Fly.io
+###  Render/Railway 
 1. Push your code to GitHub.
 2. Connect the repo to your hosting platform.
 3. Set the environment variables (`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, `PORT`).
